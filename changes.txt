@@ -1,0 +1,29 @@
+changes--
+
+HTML:
+
+TEXT
+
+
+CSS:
+more on colors
+
+
+
+bootstrap:
+
+/*--CHANGED--*/
+.navbar-brand {
+  float: left;
+  height: 50px;
+  font-size: 18px;
+  line-height: 20px;
+}
+/*--CHANGED--*/
+
+
+/*--CHANGED--*/
+.navbar-brand > img {
+  display: block;
+    height: 40px;
+/*--CHANGED--*/
