@@ -18,6 +18,7 @@
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/footerMMS.css">
 
     <!-- Plugin CSS -->
     <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
@@ -56,10 +57,13 @@
                         <a class="page-scroll" href="#services">Services</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#portfolio">Our team</a>
+                        <a class="page-scroll" href="#ourteam">Our team</a>
+                    </li>
+					<li>
+                        <a class="page-scroll" href="#clients">Clients</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
+                        <a class="page-scroll" href="#reachus">Reach Us</a>
                     </li>
                 </ul>
             </div>
@@ -71,7 +75,7 @@
     <header>
         <div class="header-content">
             <div class="header-content-inner">
-                <h1 id="homeHeading">MMS</h1>
+                <h1 id="homeHeading">Mailtech Marketing Services</h1>
                 <hr>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
@@ -135,7 +139,7 @@
         </div>
     </section>
 
-    <section class="no-padding" id="portfolio">
+    <section class="no-padding" id="ourteam">
         <div class="container-fluid">
             <div class="row no-gutter popup-gallery">
                 <div class="col-lg-4 col-sm-6">
@@ -232,41 +236,147 @@
         </div>
     </section>
 
-    <aside class="bg-dark">
-        <div class="container text-center">
-            <div class="call-to-action">
-                <h2>Free Download at Start Bootstrap!</h2>
-                <a href="#" class="btn btn-default btn-xl sr-button">Download Now!</a>
+	<section class="bg-dark" id="clients">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Our Clients</h2>
+                    <hr class="primary">
+                </div>
             </div>
         </div>
-    </aside>
-
-    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="fa sr-icons">
+                       <img src="img/clients_InboxUS.png" class="img-responsive " width="140px">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                     <div class="fa sr-icons">
+                       <img src="img/clients_MintGlobal.png" class="img-responsive " width="130px">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="fa sr-icons">
+                       <img src="img/clients_siftLogic.png" class="img-responsive " width="170px">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                     <div class="fa sr-icons">
+                       <img src="img/clients_JetMarketing.png" class="img-responsive " width="180px">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+	
+	
+    <section id="reachus">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">Lorem ipsum dolor sit amet</h2>
+                    <h2 class="section-heading">Reach Us</h2>
                     <hr class="primary">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
-                <div class="col-lg-4 col-lg-offset-2 text-center">
-                    <i class="fa fa-phone fa-3x sr-contact"></i>
-                    <p>123-456-6789</p>
-                </div>
-                <div class="col-lg-4 text-center">
-                    <i class="fa fa-envelope-o fa-3x sr-contact"></i>
-                    <p><a href="mailto:your-email@your-domain.com">mailtech@services.com</a></p>
-                </div>
             </div>
         </div>
-        <div class="container no-padding">
-  <div class="row">
-    <div class="col-md-12">
-           <iframe style="border:none;" src="https://www.google.com/maps/d/embed?mid=1V3udc3E4AbdI3V1H0DqgdthenVXIwTe3" width="100%" height="410"></iframe>
-          </div>
+<div class="container no-padding">
+<div class="row">
+    <div class="col-sm-12" id="parent" style="padding-top:50px;">
+    	<div class="col-sm-6">
+    	<iframe width="100%" height="320px;" frameborder="0" style="border:0" src="https://www.google.com/maps/d/embed?mid=1V3udc3E4AbdI3V1H0DqgdthenVXIwTe3" allowfullscreen></iframe>
+    	</div>
+
+    	<div class="col-sm-6">
+    		<form action="form.php" class="contact-form" method="post">
+	
+		        <div class="form-group">
+		          <input type="text" class="form-control" id="name" name="nm" placeholder="Name" required="" autofocus="">
+		        </div>
+		    
+		    
+		        <div class="form-group form_left">
+		          <input type="email" class="form-control" id="email" name="em" placeholder="Email" required="">
+		        </div>
+		    
+		      <div class="form-group">
+		           <input type="text" class="form-control" id="phone" onkeypress="return event.charCode >= 48 && event.charCode <= 57" maxlength="10" placeholder="Mobile No." required="">
+		      </div>
+		      <div class="form-group">
+		      <textarea class="form-control textarea-contact" rows="5" id="comment" name="FB" placeholder="Type Your Message/Feedback here..." required=""></textarea>
+		      <br>
+	      	  <button class="btn btn-info btn-send"> <span class="glyphicon glyphicon-send"></span> Send </button>
+		      </div>
+     		</form>
+    	</div>
     </div>
-    </div>
+  </div>
+ </div>
     </section>
+	<footer class="footer-distributed">
+
+			<div class="footer-left">
+
+				<img src="MMS_logo_final_white.png" class="img-responsive" width="200px">
+
+				<p class="footer-links">
+					<a href="#">Home</a>
+					·
+					<a href="#">Services</a>
+					·
+					<a href="#">Our Team</a>
+					·
+					<a href="#">Clients</a>
+					·
+					<a href="#">Reach Us</a>
+
+				</p>
+
+				<p class="footer-company-name">Mailtech Marketing Services &copy; 2017</p>
+			</div>
+
+			<div class="footer-center">
+
+				<div>
+					<i class="fa fa-map-marker"></i>
+					<p>Unit 3, 2nd flr. 167 RCB Place, Barangay Greater Lagro<span>Commonwealth Ave. Extension, Quezon City, Philippines</span> </p>
+				</div>
+
+				<div>
+					<i class="fa fa-phone"></i>
+					<p>+63 (2) 3984065</p>
+				</div>
+
+				<div>
+					<i class="fa fa-envelope"></i>
+					<p><a href="mailto:mailtechmarketingservies@company.com">mailtechmarketingservies@company.com</a></p>
+				</div>
+
+			</div>
+
+			<div class="footer-right">
+
+				<p class="footer-company-about">
+					<span>About the company</span>
+					Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+				</p>
+
+				<div class="footer-icons">
+
+					<a href="#"><i class="fa fa-facebook"></i></a>
+					<a href="#"><i class="fa fa-twitter"></i></a>
+					<a href="#"><i class="fa fa-linkedin"></i></a>
+					<a href="#"><i class="fa fa-github"></i></a>
+
+				</div>
+
+			</div>
+
+		</footer>
+	
+
 
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
