@@ -255,7 +255,7 @@ header .header-content .header-content-inner p {
   color: white;
   opacity: 0;
   display: block;
-  background: rgba(240, 95, 64, 0.9);
+  background: rgba(63, 123, 195, 0.9);
   position: absolute;
   bottom: 0;
   text-align: center;
@@ -303,7 +303,7 @@ header .header-content .header-content-inner p {
   margin: 0 auto 20px;
 }
 .text-primary {
-  color: #F05F40;
+  color: #3F7BC3;
 }
 .no-gutter > [class*='col-'] {
   padding-right: 0;
@@ -408,7 +408,6 @@ fieldset[disabled] .btn-primary.active {
 .btn {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   border: none;
-  border-radius: 300px;
   font-weight: 700;
   text-transform: uppercase;
 }
